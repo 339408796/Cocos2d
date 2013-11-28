@@ -1,0 +1,55 @@
+﻿生成启动时间为 2013/11/28 10:45:38。
+     1>项目“C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\HelloCpp.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\..\..\..\cocos2dx" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\..\..\..\cocos2dx\include" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\..\..\..\cocos2dx\platform\win32" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\..\..\..\external" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\..\..\..\CocosDenshion\include" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\..\..\..\extensions" /I..\Classes /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\GameAboutScene.cpp ..\Classes\GameEnemyBullet.cpp ..\Classes\GameHeroBullet.cpp ..\Classes\GameMark.cpp ..\Classes\GameMenuScene.cpp ..\Classes\GameObjEnemy.cpp ..\Classes\GameObjHero.cpp ..\Classes\GameScene.cpp
+         GameObjHero.cpp
+         GameObjEnemy.cpp
+         GameMenuScene.cpp
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\catdog1.0\classes\gamemenuscene.cpp(116): warning C4018: “<”: 有符号/无符号不匹配
+         GameMark.cpp
+         GameHeroBullet.cpp
+         GameEnemyBullet.cpp
+         GameAboutScene.cpp
+         正在生成代码...
+         正在编译...
+         GameScene.cpp
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\catdog1.0\classes\gamescene.cpp(29): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\catdog1.0\classes\gamescene.cpp(40): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\catdog1.0\classes\gamescene.cpp(94): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\catdog1.0\classes\gamescene.cpp(98): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\catdog1.0\classes\gamescene.cpp(102): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\catdog1.0\classes\gamescene.cpp(107): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\catdog1.0\classes\gamescene.cpp(118): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\catdog1.0\classes\gamescene.cpp(224): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\catdog1.0\classes\gamescene.cpp(241): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         AppDelegate.cpp
+       PreLinkEvent:
+         if not exist "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\Debug.win32\" mkdir "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\Debug.win32\HelloCpp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\Debug.win32\HelloCpp.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\Debug.win32\HelloCpp.lib" /MACHINE:X86 /SAFESEH Debug.win32\AppDelegate.obj
+         Debug.win32\GameAboutScene.obj
+         Debug.win32\GameEnemyBullet.obj
+         Debug.win32\GameHeroBullet.obj
+         Debug.win32\GameMark.obj
+         Debug.win32\GameMenuScene.obj
+         Debug.win32\GameObjEnemy.obj
+         Debug.win32\GameObjHero.obj
+         Debug.win32\GameScene.obj
+         Debug.win32\main.obj
+         "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\Debug.win32\libcocos2d.lib"
+         "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\Debug.win32\libCocosDenshion.lib"
+         "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\Debug.win32\libExtensions.lib"
+         "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\Debug.win32\libBox2D.lib"
+         "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\Debug.win32\libchipmunk.lib"
+     1>AppDelegate.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         HelloCpp.vcxproj -> C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\Debug.win32\HelloCpp.exe
+     1>已完成生成项目“C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\catdog1.0\proj.win32\HelloCpp.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.93

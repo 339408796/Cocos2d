@@ -1,0 +1,36 @@
+﻿生成启动时间为 2013/11/27 22:50:50。
+     1>项目“C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\fruit cut\proj.win32\HelloCpp.vcxproj”在节点 4 上(Build 个目标)。
+     1>PreLinkEvent:
+         if not exist "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\fruit cut\proj.win32\Debug.win32\" mkdir "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\fruit cut\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\fruit cut\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\fruit cut\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\fruit cut\proj.win32\Debug.win32\HelloCpp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\fruit cut\proj.win32\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\fruit cut\proj.win32\Debug.win32\HelloCpp.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\fruit cut\proj.win32\Debug.win32\HelloCpp.lib" /MACHINE:X86 /SAFESEH Debug.win32\CutCutCut.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\Banana.obj
+         Debug.win32\Bomb.obj
+         Debug.win32\CCBlade.obj
+         "Debug.win32\GLES-Render.obj"
+         Debug.win32\Grapes.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\Pineapple.obj
+         Debug.win32\PolygonSprite.obj
+         Debug.win32\PRFilledPolygon.obj
+         Debug.win32\PRRatcliffTriangulator.obj
+         Debug.win32\Strawberry.obj
+         Debug.win32\triangulate.obj
+         Debug.win32\Watermelon.obj
+         Debug.win32\main.obj
+         "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\fruit cut\proj.win32\Debug.win32\libcocos2d.lib"
+         "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\fruit cut\proj.win32\Debug.win32\libCocosDenshion.lib"
+         "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\fruit cut\proj.win32\Debug.win32\libExtensions.lib"
+         "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\fruit cut\proj.win32\Debug.win32\libBox2D.lib"
+         "C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\fruit cut\proj.win32\Debug.win32\libchipmunk.lib"
+     1>AppDelegate.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         HelloCpp.vcxproj -> C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\fruit cut\proj.win32\Debug.win32\HelloCpp.exe
+     1>已完成生成项目“C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\fruit cut\proj.win32\HelloCpp.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.95
