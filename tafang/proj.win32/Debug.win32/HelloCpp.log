@@ -1,0 +1,78 @@
+﻿生成启动时间为 2013/11/28 13:31:20。
+     1>项目“C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\tafang\proj.win32\HelloCpp.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\tafang\proj.win32\..\..\..\cocos2dx" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\tafang\proj.win32\..\..\..\cocos2dx\include" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\tafang\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\tafang\proj.win32\..\..\..\cocos2dx\platform\win32" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\tafang\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\tafang\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\tafang\proj.win32\..\..\..\external" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\tafang\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\tafang\proj.win32\..\..\..\CocosDenshion\include" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\tafang\proj.win32\..\..\..\extensions" /I..\Classes /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\HelloWorldScene.cpp ..\Classes\level\HEnemy.cpp ..\Classes\level\HTower.cpp ..\Classes\level\HWayPoint.cpp ..\Classes\level\HWorld.cpp ..\Classes\menu\HAbout.cpp ..\Classes\menu\HMenu.cpp ..\Classes\menu\HScore.cpp ..\Classes\winOrLose\HLose.cpp ..\Classes\winOrLose\HWin.cpp main.cpp
+         main.cpp
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\appdelegate.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         HWin.cpp
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\winorlose\hwin.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\winorlose\hwin.cpp(8): fatal error C1083: 无法打开包括文件:“HMenu.h”: No such file or directory
+         HLose.cpp
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\winorlose\hlose.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\winorlose\hlose.cpp(10): fatal error C1083: 无法打开包括文件:“HMenu.h”: No such file or directory
+         HScore.cpp
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\menu\hscore.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\menu\hscore.cpp(64): error C2065: “ttback”: 未声明的标识符
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\menu\hscore.cpp(64): error C2227: “->setColor”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\menu\hscore.cpp(66): error C2065: “ttback”: 未声明的标识符
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\menu\hscore.cpp(66): error C2440: “类型转换”: 无法从“void (__thiscall HScore::* )(void)”转换为“cocos2d::SEL_MenuHandler”
+                 指向成员的指针有不同的表示形式；无法在它们之间进行类型转换
+         HMenu.cpp
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\menu\hmenu.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\menu\hmenu.cpp(11): fatal error C1083: 无法打开包括文件:“HWin.h”: No such file or directory
+         HAbout.cpp
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\menu\habout.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\menu\habout.cpp(46): error C2065: “ttback”: 未声明的标识符
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\menu\habout.cpp(46): error C2227: “->setColor”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\menu\habout.cpp(48): error C2065: “ttback”: 未声明的标识符
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\menu\habout.cpp(48): error C2440: “类型转换”: 无法从“void (__thiscall HAbout::* )(void)”转换为“cocos2d::SEL_MenuHandler”
+                 指向成员的指针有不同的表示形式；无法在它们之间进行类型转换
+         HWorld.cpp
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\hworld.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\hworld.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.h(13): warning C4091: “extern ”: 没有声明变量时忽略“HTower”的左侧
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\hworld.cpp(8): fatal error C1083: 无法打开包括文件:“HWin.h”: No such file or directory
+         HWayPoint.cpp
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\hworld.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         HTower.cpp
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\htower.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\hworld.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.h(13): warning C4091: “extern ”: 没有声明变量时忽略“HTower”的左侧
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\htower.cpp(37): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\htower.cpp(117): fatal error C1004: 发现意外的文件尾
+         HEnemy.cpp
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\hworld.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.h(13): warning C4091: “extern ”: 没有声明变量时忽略“HTower”的左侧
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.cpp(64): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.cpp(80): error C2065: “postion”: 未声明的标识符
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.cpp(80): error C2228: “.x”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.cpp(81): error C2065: “postion”: 未声明的标识符
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.cpp(81): error C2228: “.y”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.cpp(82): error C2065: “postion”: 未声明的标识符
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.cpp(82): error C2228: “.x”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.cpp(83): error C2065: “postion”: 未声明的标识符
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.cpp(83): error C2228: “.y”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.cpp(87): error C2065: “postion”: 未声明的标识符
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.cpp(87): error C2228: “.x”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.cpp(92): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\level\henemy.cpp(103): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+         HelloWorldScene.cpp
+         AppDelegate.cpp
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\appdelegate.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\appdelegate.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\tafang\classes\appdelegate.cpp(12): fatal error C1083: 无法打开包括文件:“HMenu.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\tafang\proj.win32\HelloCpp.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:16.10

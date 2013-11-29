@@ -1,0 +1,37 @@
+﻿生成启动时间为 2013/11/29 13:21:27。
+     1>项目“C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\luolikuaipao\proj.win32\HelloCpp.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\luolikuaipao\proj.win32\..\..\..\cocos2dx" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\luolikuaipao\proj.win32\..\..\..\cocos2dx\include" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\luolikuaipao\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\luolikuaipao\proj.win32\..\..\..\cocos2dx\platform\win32" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\luolikuaipao\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\luolikuaipao\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\luolikuaipao\proj.win32\..\..\..\external" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\luolikuaipao\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\luolikuaipao\proj.win32\..\..\..\CocosDenshion\include" /I"C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\luolikuaipao\proj.win32\..\..\..\extensions" /I..\Classes /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\GameMenuScene.cpp
+         GameMenuScene.cpp
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemenuscene.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemenuscene.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemainscene.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gameobjhero.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gameobjmap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemark.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gameaboutscene.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemenuscene.cpp(31): error C2065: “bg”: 未声明的标识符
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemenuscene.cpp(31): error C2227: “->setScale”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemenuscene.cpp(32): error C2065: “bg”: 未声明的标识符
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemenuscene.cpp(32): error C2227: “->setPosition”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemenuscene.cpp(33): error C2065: “bg”: 未声明的标识符
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemenuscene.cpp(35): error C2065: “newGame”: 未声明的标识符
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemenuscene.cpp(35): error C2227: “->setScale”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemenuscene.cpp(36): error C2065: “newGame”: 未声明的标识符
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemenuscene.cpp(36): error C2227: “->setPosition”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemenuscene.cpp(37): error C2065: “newGame”: 未声明的标识符
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemenuscene.cpp(37): error C2227: “->setEnabled”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemenuscene.cpp(38): error C2276: “&”: 绑定成员函数表达式上的非法操作
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemenuscene.cpp(42): error C2276: “&”: 绑定成员函数表达式上的非法操作
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemenuscene.cpp(46): error C2276: “&”: 绑定成员函数表达式上的非法操作
+     1>c:\users\huangyuchao\desktop\cocos2d-x-2.2.1\projects\luolikuaipao\classes\gamemenuscene.cpp(51): error C2065: “newGame”: 未声明的标识符
+     1>已完成生成项目“C:\Users\huangyuchao\Desktop\cocos2d-x-2.2.1\projects\luolikuaipao\proj.win32\HelloCpp.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.67
