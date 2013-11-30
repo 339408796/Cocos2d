@@ -12,31 +12,31 @@
     <ClCompile Include="main.cpp">
       <Filter>win32</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\新建文件夹\AppDelegate.cpp">
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\新建文件夹\GameAboutScene.cpp">
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\新建文件夹\GameMainScene.cpp">
+    <ClCompile Include="..\Classes\GameMenuScene.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\新建文件夹\GameMark.cpp">
+    <ClCompile Include="..\Classes\GameAboutScene.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\新建文件夹\GameMenuScene.cpp">
+    <ClCompile Include="..\Classes\GameScene.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\新建文件夹\GameObjHero.cpp">
+    <ClCompile Include="..\Classes\GameObjMap.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\新建文件夹\GameObjMap.cpp">
+    <ClCompile Include="..\Classes\GameObjStar.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\新建文件夹\GameObjStar.cpp">
+    <ClCompile Include="..\Classes\GameObjHero.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\新建文件夹\HelloWorldScene.cpp">
+    <ClCompile Include="..\Classes\GameMark.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
   </ItemGroup>
@@ -44,34 +44,34 @@
     <ClInclude Include="main.h">
       <Filter>win32</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\新建文件夹\AppDelegate.h">
+    <ClInclude Include="..\Classes\AppDelegate.h">
       <Filter>Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\新建文件夹\GameAboutScene.h">
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\新建文件夹\GameConst.h">
+    <ClInclude Include="..\Classes\GameMenuScene.h">
       <Filter>Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\新建文件夹\GameMainScene.h">
+    <ClInclude Include="..\Classes\GameAboutScene.h">
       <Filter>Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\新建文件夹\GameMark.h">
+    <ClInclude Include="..\Classes\GameScene.h">
       <Filter>Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\新建文件夹\GameMenuScene.h">
+    <ClInclude Include="..\Classes\GameObjMap.h">
       <Filter>Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\新建文件夹\GameObjHero.h">
+    <ClInclude Include="..\Classes\GameObjStar.h">
       <Filter>Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\新建文件夹\GameObjMap.h">
+    <ClInclude Include="..\Classes\GameConst.h">
       <Filter>Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\新建文件夹\GameObjStar.h">
+    <ClInclude Include="..\Classes\GameObjHero.h">
       <Filter>Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\新建文件夹\HelloWorldScene.h">
+    <ClInclude Include="..\Classes\Gamemark.h">
       <Filter>Classes</Filter>
     </ClInclude>
   </ItemGroup>
